@@ -6,5 +6,10 @@ public class Wrapper {
         Integer I = i;
         String str = I.toString();
         System.out.println(str);
+
+        String STR = "345";
+        Integer f = Integer.parseInt(STR);
+        System.out.print(f);
+
     }
 }
